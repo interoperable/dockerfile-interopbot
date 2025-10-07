@@ -23,6 +23,13 @@
     "hubot-xkcd": "^0.0.5"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=11.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com:interoperable/hubot-irc.git"
+  },
+  "bugs": {
+    "url": "git://github.com:interoperable/hubot-irc/issues"
   }
 }
