@@ -1,30 +1,25 @@
-FROM arm32v6/node:latest
-MAINTAINER Peter J. Pouliot <peter@pouliot.net>
+FROM node:current-alpine
+LABEL org.opencontainers.image.authors="Peter J. Pouliot <peter@pouliot.net>" \
+      org.opencontainers.image.description="A hugbot container for use with the Interoperable" \
+      org.opencontainers.image.version="0.0.1"
+      org.opencontainers.image.source="https://github.com/interoperable/hubot-irc"
 
-RUN \
-    /usr/bin/npm install -g yo generator-hubot \
-    md /hubot \
-    cd /hubot \
-    yo hubot --owner='Peter J. Pouliot <peter@pouliot.net>' --name="Hubot" --description="Hubot in NanonServer Container" --adapter=slack --defaults ; \
-    /usr/bin/npm install \
-    css-select \
-    css-what \
-    minimatch \
-    uuid \
-    hubot-jenkins-enhanced \
-    hubot-github \
-    hubot-ghe \
-    hubot-ghe-backup-snapshot \
-    hubot-ghe-external-auto \
-    hubot-ghe-external \
-    hubot-ghe-failure-recovery'; \
-    /usr/bin/npm uninstall hubot-heroku-keepalive' ; \
-    rm -Force /hubot/hubot-scripts.json
+# Set the working directory inside the container
+WORKDIR /app
+# Copy package.json and package-lock.json (if present)
+COPY package.json ./
+# Install Hubot and its dependencies, including the IRC adapter
+RUN npm install -g npm@11.6.1
+RUN npm install --omit=dev
 
-COPY external-scripts.json /hubot/external-scripts.json
-COPY hubot-start.ps1 /hubot/hubot-start.ps1
-COPY Dockerfile /Dockerfile
-# Run the hubot and expose the ports
+# Copy the rest of the application files
+COPY . .
+# Set environment variables for Hubot IRC
+ENV HUBOT_IRC_SERVER="irc.freenode.net" \
+    HUBOT_IRC_ROOMS="#your_channel,#another_channel" \
+    HUBOT_IRC_NICK="hubot-interoperable" \
+    HUBOT_ADAPTER="irc"
+# Expose the port if Hubot needs to listen for external connections (e.g., HTTP listener for external scripts)
 EXPOSE 8080
-WORKDIR c:/hubot
-CMD bin/hubot --adapter slack
+# Command to run Hubot
+CMD ["bin/hubot", "--adapter", "irc"]
