@@ -3,7 +3,7 @@ FROM node:current-alpine
 LABEL org.opencontainers.image.authors="Peter J. Pouliot <peter@pouliot.net>" \
       org.opencontainers.image.description="A hugbot container for use with the Interoperable" \
       org.opencontainers.image.version="0.0.1" \
-      org.opencontainers.image.url="https://github.com/interoperable/hubot-irc"
+      org.opencontainers.image.url="https://github.com/interoperable/hubot-irc" \
       org.opencontainers.image.source="https://github.com/interoperable/hubot-irc"
 # Set the working directory inside the container
 WORKDIR /app
