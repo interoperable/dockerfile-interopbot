@@ -22,6 +22,6 @@ ENV HUBOT_IRC_SERVER="irc.freenode.net" \
     HUBOT_IRC_NICK="hubot-interoperable" \
     HUBOT_ADAPTER="irc"
 # Expose the port if Hubot needs to listen for external connections (e.g., HTTP listener for external scripts)
-EXPOSE 8080
+EXPOSE 9999
 # Command to run Hubot
 CMD ["bin/hubot", "--adapter", "irc"]
