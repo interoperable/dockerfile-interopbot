@@ -1,1 +1,1 @@
-# Hubot Interoperable
+# hubot-irc
