@@ -1,9 +1,8 @@
 FROM node:current-alpine
 LABEL org.opencontainers.image.authors="Peter J. Pouliot <peter@pouliot.net>" \
       org.opencontainers.image.description="A hugbot container for use with the Interoperable" \
-      org.opencontainers.image.version="0.0.1"
+      org.opencontainers.image.version="0.0.1" \
       org.opencontainers.image.source="https://github.com/interoperable/hubot-irc"
-
 # Set the working directory inside the container
 WORKDIR /app
 # Copy package.json and package-lock.json (if present)
@@ -11,7 +10,6 @@ COPY package.json ./
 # Install Hubot and its dependencies, including the IRC adapter
 RUN npm install -g npm@11.6.1
 RUN npm install --omit=dev
-
 # Copy the rest of the application files
 COPY . .
 # Set environment variables for Hubot IRC
