@@ -26,8 +26,8 @@ on:
         default: ''
 
 jobs:
-  build_and_push:
-    name: Docker Build and Push
+  reusable_build_and_push:
+    name: Reusable Docker Build and Push
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -112,5 +112,3 @@ jobs:
           # (vs only the final image - mode: min)
           cache-from: type=gha
           cache-to: type=gha,mode=max
-
-

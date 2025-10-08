@@ -1,11 +1,11 @@
-name: Build and Push Docker Image on Release
+name: Build and Push Docker Image on Published Release
 
 on:
   release:
     types: [published]
 
 jobs:
-  build-and-push:
+  build-and-push-on-published-release:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     concurrency:
