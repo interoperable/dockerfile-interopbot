@@ -35,6 +35,8 @@ jobs:
             type=semver,pattern={{major}}
             type=sha
             type=schedule,pattern={{date 'YYYYMMDD-hhmmss'}}
+            type=raw,value=latest
+            type=raw,value={{date 'YYYYMMDD-HHmmss'}},enable=true
 
 #      - name: Login to Docker Hub
 #        if: github.event_name != 'pull_request'
