@@ -5,7 +5,11 @@
   "hubot-qr",
   "hubot-xkcd",
   "hubot-hockey",
+  "hubot-pollen",
+  "hubot-airnow-gov",
   "hubot-redis-brain",
   "hubot-rules",
-  "hubot-scripts-us-federal-holidays-reminder"
+  "hubot-scripts-us-federal-holidays-reminder",
+  "@stephenyeargin/hubot-openweathermap"
+
 ]

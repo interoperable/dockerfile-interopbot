@@ -21,7 +21,11 @@ COPY . .
 ENV HUBOT_IRC_SERVER="irc.freenode.net" \
     HUBOT_IRC_ROOMS="#your_channel,#another_channel" \
     HUBOT_IRC_NICK="hubot-interoperable" \
-    HUBOT_ADAPTER="irc"
+    HUBOT_ADAPTER="irc" \
+    HUBOT_POLLEN_ZIP="02639" \
+    HUBOT_AIRNOW_API_KEY="" \
+    HUBOT_AIRNOW_DEFAULT_ZIP="02639 \
+    HUBOT_OPEN_WEATHER_MAP_API_KEY=""
 # Expose the port if Hubot needs to listen for external connections (e.g., HTTP listener for external scripts)
 EXPOSE 9999
 # Command to run Hubot
