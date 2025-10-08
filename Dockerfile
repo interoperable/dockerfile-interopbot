@@ -3,8 +3,8 @@ FROM node:current-alpine
 LABEL org.opencontainers.image.authors="Peter J. Pouliot <peter@pouliot.net>" \
       org.opencontainers.image.description="A hugbot container for use with the Interoperable" \
       org.opencontainers.image.ref.name="Hugbot IRC Bot" \
-      org.opencontainers.image.description="A hugbot container for use with the Interoperable" \
-      org.opencontainers.image.version="${APP_VERSION}" \
+      org.opencontainers.image.description "A hugbot container for use with the Interoperable" \
+      org.opencontainers.image.version="${DOCKER_TAG_DATE}" \
       org.opencontainers.image.licenses=Apache-2.0 \
       org.opencontainers.image.url="https://github.com/interoperable/hubot-irc" \
       org.opencontainers.image.source="https://github.com/interoperable/hubot-irc"
