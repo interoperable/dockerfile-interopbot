@@ -1,10 +1,10 @@
 {
-  "name": "hubot-interoperable",
+  "name": "interopbot",
   "private": true,
   "author": "Peter Pouliot <peter@pouliot.net>",
   "description": "A simple friendly hubot for the Interoperable team.",
   "version": "1.0.0",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "main": "index.js",
   "scripts": {
     "start": "bin/hubot -a irc"
@@ -27,9 +27,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com:interoperable/hubot-irc.git"
+    "url": "git://github.com:interoperable/interopbot.git"
   },
   "bugs": {
-    "url": "git://github.com:interoperable/hubot-irc/issues"
+    "url": "git://github.com:interoperable/interopbot/issues"
   }
 }
