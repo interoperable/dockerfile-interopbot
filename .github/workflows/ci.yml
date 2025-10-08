@@ -23,7 +23,7 @@ jobs:
         with:
           # list of Docker images to use as base name for tags
           images: |
-            interoperable/interopbot
+#           interoperable/interopbot
             ghcr.io/interoperable/interopbot
           # generate Docker tags based on the following events/attributes
           tags: |
