@@ -21,6 +21,8 @@ A Hubot IRC Bot
 
 
 [![Docker Pulls](https://badgen.net/docker/pulls/interoperable/interopbot?icon=docker&label=pulls)](https://hub.docker.com/r/interoperable/interopbot)
+[![Docker pulls](https://img.shields.io/docker/pulls/interoperable/interopbot.svg?style=plastic)](https://registry.hub.docker.com/v2/repositories/interoperable/interopbot/)
+[![Docker pulls](https://img.shields.io/docker/pulls/interoperable/interopbot.svg?style=plastic)](https://hub.docker.com/r/interoperable/interopbot/)
 [![Docker Stars](https://badgen.net/docker/stars/interoperable/interopbot?icon=docker&label=stars)](https://hub.docker.com/r/interoperable/interopbot/)
 [![Docker Image Size](https://badgen.net/docker/size/interoperable/interopbot?icon=docker&label=image%20size)](https://hub.docker.com/r/interoperable/interopbot/)
 [![Docker Automated build](https://img.shields.io/docker/automated/interoperable/interopbot.svg)](https://hub.docker.com/v2/repositories/interoperable/interopbot/autobuild/)
