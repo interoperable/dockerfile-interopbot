@@ -22,7 +22,8 @@
     "hubot-jenkins-optimised": "^1.0.6",
     "hubot-hockey": "^6.5.1",
     "hubot-scripts-us-federal-holidays-reminder": "^2.1.1",
-    "hubot-xkcd": "^0.0.5"
+    "hubot-xkcd": "^0.0.5",
+    "hubot-github-deployments": "^1.4.3"
   },
   "engines": {
     "node": ">=11.14.0"

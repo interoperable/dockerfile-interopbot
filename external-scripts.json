@@ -4,6 +4,7 @@
   "hubot-jenkins-optimized",
   "hubot-qr",
   "hubot-xkcd",
+  "hubot-github-deployments",
   "hubot-hockey",
   "hubot-pollen",
   "hubot-airnow-gov",
