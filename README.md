@@ -15,9 +15,11 @@ A Hubot IRC Bot
 [![Latest version](https://img.shields.io/github/tag/dockerfile-interopbot.svg?label=release&style=flat&maxAge=3600)](https://github.com/interoperable/dockerfile-interopbot/tags)
 [![GitHub issues](https://img.shields.io/github/issues/dockerfile-interopbot.svg)](https://github.com/interoperable/dockerfile-interopbot/issues)
 [![GitHub forks](https://img.shields.io/github/forks/interoperable/dockerfile-interopbot.svg)](https://github.com/ppouliot/https://github.com/interoperable/dockerfile-interopbot/network)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/hapi-auth-jwt2/issues)
 [![Docker Automated build](https://img.shields.io/docker/automated/interoperable/interopbot.svg)](https://hub.docker.com/v2/repositories/interoperable/interopbot/autobuild/)
 [![Docker Build Status](https://img.shields.io/docker/build/interoperable/interopbot.svg)](https://hub.docker.com/v2/repositories/interoperable/interopbot/builds/)
 [![Docker pulls](https://img.shields.io/docker/pulls/interoperable/interopbot.svg?style=plastic)](https://registry.hub.docker.com/v2/repositories/interoperable/interopbot/)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/hapi-auth-jwt2/issues)
 
 Dockerfile to build an opinionated hubot.
 
