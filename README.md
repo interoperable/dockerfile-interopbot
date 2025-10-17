@@ -10,7 +10,8 @@ A Hubot IRC Bot
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
 
 <!-- END BADGIE TIME -->
-[![License](https://img.shields.io/github/license/dockerfile-interopbot.svg)](./LICENSE)
+![GitHub License](https://img.shields.io/github/license/interoperable/dockerfile-interopbot)
+
 [![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style=flat)](https://github.com/interoperable/dockerfile-interopbot)
 [![Latest version](https://img.shields.io/github/tag/dockerfile-interopbot.svg?label=release&style=flat&maxAge=3600)](https://github.com/interoperable/dockerfile-interopbot/tags)
 [![GitHub issues](https://img.shields.io/github/issues/dockerfile-interopbot.svg)](https://github.com/interoperable/dockerfile-interopbot/issues)
