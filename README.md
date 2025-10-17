@@ -14,6 +14,17 @@ A Hubot IRC Bot
 [![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style=flat)](https://github.com/interoperable/dockerfile-interopbot)
 [![Latest version](https://img.shields.io/github/tag/interoperable/dockerfile-interopbot.svg?label=release&style=flat&maxAge=3600)](https://github.com/interoperable/dockerfile-interopbot/tags)
 [![GitHub issues](https://img.shields.io/github/issues/interoperable/dockerfile-interopbot.svg)](https://github.com/interoperable/dockerfile-interopbot/issues)
+
+
+[![Docker Pulls](https://badgen.net/docker/pulls/interoperable/interopbot?icon=docker&label=pulls)](https://hub.docker.com/r/interoperable/interopbot
+[![Docker Stars](https://badgen.net/docker/stars/interoperable/interopbot?icon=docker&label=stars)](https://hub.docker.com/r/interoperable/interopbot/)
+[![Docker Image Size](https://badgen.net/docker/size/interoperable/interopbot?icon=docker&label=image%20size)](https://hub.docker.com/r/interoperable/interopbot/)
+![Github stars](https://badgen.net/github/stars/interoperable/docker-interopbot?icon=github&label=stars)
+![Github forks](https://badgen.net/github/forks/interoperable/docker-interopbot?icon=github&label=forks)
+![Github issues](https://img.shields.io/github/issues/interoperable/docker-interopbot)
+![Github last-commit](https://img.shields.io/github/last-commit/TrueOsiris/docker-interopbot)
+
+
 [![Docker Automated build](https://img.shields.io/docker/automated/interoperable/interopbot.svg)](https://hub.docker.com/v2/repositories/interoperable/interopbot/autobuild/)
 [![Docker pulls](https://img.shields.io/docker/pulls/interoperable/interopbot.svg?style=plastic)](https://registry.hub.docker.com/v2/repositories/interoperable/interopbot/)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/interoperable/dockerfile-interopbot/issues)
