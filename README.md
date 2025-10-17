@@ -11,11 +11,11 @@ A Hubot IRC Bot
 ![03_ci workflow](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/03_ci.yml/badge.svg?label=build&style=flat-square&branch=main)
 ![nightly](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/nightly.yml/badge.svg?label=build&style=flat-square&branch=main)
 [![GitHub forks](https://img.shields.io/github/forks/interoperable/dockerfile-interopbot.svg)](https://github.com/interoperable/dockerfile-interopbot/network)
+![Github forks](https://badgen.net/github/forks/interoperable/dockerfile-interopbot?icon=github&label=forks)
 ![GitHub License](https://img.shields.io/github/license/interoperable/dockerfile-interopbot)
 [![Latest version](https://img.shields.io/github/tag/interoperable/dockerfile-interopbot.svg?label=release&style=flat&maxAge=3600)](https://github.com/interoperable/dockerfile-interopbot/tags)
 [![GitHub issues](https://img.shields.io/github/issues/interoperable/dockerfile-interopbot.svg)](https://github.com/interoperable/dockerfile-interopbot/issues)
 ![Github stars](https://badgen.net/github/stars/interoperable/dockerfile-interopbot?icon=github&label=stars)
-![Github forks](https://badgen.net/github/forks/interoperable/dockerfile-interopbot?icon=github&label=forks)
 ![Github issues](https://img.shields.io/github/issues/interoperable/dockerfile-interopbot)
 ![Github last-commit](https://img.shields.io/github/last-commit/interoperable/dockerfile-interopbot)
 
