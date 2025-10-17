@@ -19,10 +19,10 @@ A Hubot IRC Bot
 [![Docker Pulls](https://badgen.net/docker/pulls/interoperable/interopbot?icon=docker&label=pulls)](https://hub.docker.com/r/interoperable/interopbot)
 [![Docker Stars](https://badgen.net/docker/stars/interoperable/interopbot?icon=docker&label=stars)](https://hub.docker.com/r/interoperable/interopbot/)
 [![Docker Image Size](https://badgen.net/docker/size/interoperable/interopbot?icon=docker&label=image%20size)](https://hub.docker.com/r/interoperable/interopbot/)
-![Github stars](https://badgen.net/github/stars/interoperable/docker-interopbot?icon=github&label=stars)
-![Github forks](https://badgen.net/github/forks/interoperable/docker-interopbot?icon=github&label=forks)
-![Github issues](https://img.shields.io/github/issues/interoperable/docker-interopbot)
-![Github last-commit](https://img.shields.io/github/last-commit/TrueOsiris/docker-interopbot)
+![Github stars](https://badgen.net/github/stars/interoperable/dockerfile-interopbot?icon=github&label=stars)
+![Github forks](https://badgen.net/github/forks/interoperable/dockerfile-interopbot?icon=github&label=forks)
+![Github issues](https://img.shields.io/github/issues/interoperable/dockerfile-interopbot)
+![Github last-commit](https://img.shields.io/github/last-commit/interoperable/dockerfile-interopbot)
 
 
 [![Docker Automated build](https://img.shields.io/docker/automated/interoperable/interopbot.svg)](https://hub.docker.com/v2/repositories/interoperable/interopbot/autobuild/)
