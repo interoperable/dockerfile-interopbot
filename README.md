@@ -1,5 +1,10 @@
 # interopbot
 A Hubot IRC Bot
+
+![01_lint_dockerfile workflow](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/01_lint_dockerfile.yml/badge.svg)
+![02_release_please workflow](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/02_release_please.yml/badge.svg)
+![03_ci workflow](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/03_ci.yml/badge.svg)
+![nightly](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/nightly.yml/badge.svg)
 <!-- BADGIE TIME -->
 
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
