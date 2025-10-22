@@ -1,3 +1,4 @@
+# syntax = docker/dockerfile:1.3
 FROM node:current-alpine
 # https://www.docker.com/blog/docker-best-practices-using-tags-and-labels-to-manage-docker-image-sprawl/
 LABEL org.opencontainers.image.authors="Peter J. Pouliot <peter@pouliot.net>" \
