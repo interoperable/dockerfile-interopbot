@@ -13,14 +13,13 @@ WORKDIR /app
 # Copy package.json and package-lock.json (if present)
 COPY package.json ./
 # Install Hubot and its dependencies, including the IRC adapter
-RUN npm install -g npm@11.6.1 && \
-    npm install --omit=dev
+RUN npm install --omit dev
 # Copy the rest of the application files
 COPY . .
 # Set environment variables for Hubot IRC
-ENV HUBOT_IRC_SERVER="irc.freenode.net" \
-    HUBOT_IRC_ROOMS="#your_channel,#another_channel" \
-    HUBOT_IRC_NICK="hubot-interoperable" \
+ENV HUBOT_IRC_SERVER="192.168.1.4" \
+    HUBOT_IRC_ROOMS="#ops,#ci" \
+    HUBOT_IRC_NICK="interopbot" \
     HUBOT_ADAPTER="irc" \
     HUBOT_POLLEN_ZIP="02639" \
     HUBOT_AIRNOW_API_KEY="" \
@@ -29,4 +28,4 @@ ENV HUBOT_IRC_SERVER="irc.freenode.net" \
 # Expose the port if Hubot needs to listen for external connections (e.g., HTTP listener for external scripts)
 EXPOSE 9999
 # Command to run Hubot
-CMD ["bin/hubot", "--adapter", "irc"]
+CMD ["npm", "start"]

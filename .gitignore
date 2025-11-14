@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+tmp/
+
+# Editor/OS temporary files
+.DS_Store
+.idea/
+.vscode/
+
+# Build and configuration files
+externals-scripts.json
+# ^ Note: this file should typically be committed if it manages required scripts, 
+# but if it is auto-generated or machine-specific, it might be ignored. 
+# Check your project's specific needs.
+
+# Transpiled JavaScript files (if using CoffeeScript/TypeScript)
+# If your source is in 'src' and compiled to 'lib' or 'app'
+lib/
+app/

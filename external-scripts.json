@@ -1,16 +1,5 @@
 [
-  "hubot-diagnostics",
   "hubot-help",
-  "hubot-jenkins-optimized",
-  "hubot-qr",
-  "hubot-xkcd",
-  "hubot-github-deployments",
-  "hubot-hockey",
-  "hubot-pollen",
-  "hubot-airnow-gov",
-  "hubot-redis-brain",
   "hubot-rules",
-  "hubot-scripts-us-federal-holidays-reminder",
-  "@stephenyeargin/hubot-openweathermap"
-
+  "hubot-diagnostics"
 ]
