@@ -1,5 +1,27 @@
 [
+  "hubot-diagnostics",
+  "hubot-grafana",
+  "hubot-github-comments-notifier",
+  "hubot-github-pages",
   "hubot-help",
   "hubot-rules",
-  "hubot-diagnostics"
+  "hubot-github-deployments",
+  "hubot-github-create-issues",
+  "hubot-github-issue-lookup",
+  "hubot-github-templated-issues",
+  "hubot-github-notify",
+  "hubot-github-pr-release",
+  "hubot-github-pull-request",
+  "hubot-jenkins-gof",
+  "hubot-ethereum",
+  "hubot-jenkins-notifier"
+  "hubot-ollama",
+  "@types/hubot",
+  "@hubot-friends/hubot-redis-brain",
+  "@stephenyeargin/hubot-openweathermap",
+  "@auto-it/docker",
+  "@pipedream/gitea",
+  "@backstage-community/plugin-jenkins-common",
+  "@backstage-community/plugin-jenkins-backend",
+  "@backstage-community/plugin-jenkins"
 ]
