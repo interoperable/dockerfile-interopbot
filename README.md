@@ -1,18 +1,21 @@
 # interopbot
 A Hubot IRC Bot
-[![01 Lint Dockerfile](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/01_lint_dockerfile.yml/badge.svg)](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/01_lint_dockerfile.yml)
-[![02_release_please](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/02_release_please.yml/badge.svg)](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/02_release_please.yml)
-[![03 ci](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/03_ci.yml/badge.svg)](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/03_ci.yml)
-[![Nightly Docker Build and Publish](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/nightly.yml/badge.svg)](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/nightly.yml)
+
 <!-- BADGIE TIME -->
 
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
 
 <!-- END BADGIE TIME -->
+[![01 Lint Dockerfile](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/01_lint_dockerfile.yml/badge.svg)](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/01_lint_dockerfile.yml)
+[![02_release_please](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/02_release_please.yml/badge.svg)](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/02_release_please.yml)
+[![03 ci](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/03_ci.yml/badge.svg)](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/03_ci.yml)
+[![Nightly Docker Build and Publish](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/nightly.yml/badge.svg)](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/nightly.yml)
+
 [![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style |flat)](https://github.com/interoperable/dockerfile-interopbot)
 [![Latest version](https://img.shields.io/github/tag/interoperable/dockerfile-interopbot.svg?label |release&style |flat&maxAge |3600)](https://github.com/interoperable/dockerfile-interopbot/tags)
 [![GitHub issues](https://img.shields.io/github/issues/interoperable/dockerfile-interopbot.svg)](https://github.com/interoperable/dockerfile-interopbot/issues)
 ![GitHub License](https://img.shields.io/github/license/interoperable/dockerfile-interopbot)
+![GitHub Issues](https://img.shields.io/github/issues/interoperable/dockerfile-interopbot)
 ![Github stars](https://badgen.net/github/stars/interoperable/dockerfile-interopbot?icon |github&label |stars)
 ![Github last-commit](https://img.shields.io/github/last-commit/interoperable/dockerfile-interopbot)
 [![GitHub forks](https://img.shields.io/github/forks/interoperable/dockerfile-interopbot.svg)](https://github.com/interoperable/dockerfile-interopbot/network)
