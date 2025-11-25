@@ -15,7 +15,7 @@
   "hubot-github-pull-request",
   "hubot-jenkins-gof",
   "hubot-ethereum",
-  "hubot-jenkins-notifier"
+  "hubot-jenkins-notifier",
   "hubot-ollama",
   "@types/hubot",
   "@hubot-friends/hubot-redis-brain",
