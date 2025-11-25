@@ -1,19 +1,15 @@
 # interopbot
 A Hubot IRC Bot
-![01_lint_dockerfile workflow](https://github.com/dockerfile-interopbot/workflows/01_lint_dockerfile.yml/badge.svg)
-![02_release_please workflow](https://github.com/dockerfile-interopbot/workflows/02_release_please.yml/badge.svg)
-![03_ci workflow](https://github.com/dockerfile-interopbot/workflows/03_ci.yml/badge.svg)
-![nightly workflow](https://github.com/dockerfile-interopbot/workflows/nightyl.yml/badge.svg)
+[![01 Lint Dockerfile](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/01_lint_dockerfile.yml/badge.svg)](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/01_lint_dockerfile.yml)
+[![02_release_please](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/02_release_please.yml/badge.svg)](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/02_release_please.yml)
+[![03 ci](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/03_ci.yml/badge.svg)](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/03_ci.yml)
+[![Nightly Docker Build and Publish](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/nightly.yml/badge.svg)](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/nightly.yml)
 <!-- BADGIE TIME -->
 
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
 
 <!-- END BADGIE TIME -->
 [![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style |flat)](https://github.com/interoperable/dockerfile-interopbot)
-![01_lint_dockerfile workflow](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/01_lint_dockerfile.yml/badge.svg?label |build&style |flat-square&branch |main)
-![02_release_please workflow](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/02_release_please.yml/badge.svg?label |build&style |flat-square&branch |main)
-![03_ci workflow](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/03_ci.yml/badge.svg?label |build&style |flat-square&branch |main)
-![nightly](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/nightly.yml/badge.svg?label |build&style |flat-square&branch |main)
 [![Latest version](https://img.shields.io/github/tag/interoperable/dockerfile-interopbot.svg?label |release&style |flat&maxAge |3600)](https://github.com/interoperable/dockerfile-interopbot/tags)
 [![GitHub issues](https://img.shields.io/github/issues/interoperable/dockerfile-interopbot.svg)](https://github.com/interoperable/dockerfile-interopbot/issues)
 ![GitHub License](https://img.shields.io/github/license/interoperable/dockerfile-interopbot)
