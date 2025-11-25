@@ -11,8 +11,6 @@ A Hubot IRC Bot
 [![03 ci](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/03_ci.yml/badge.svg)](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/03_ci.yml)
 [![Nightly Docker Build and Publish](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/nightly.yml/badge.svg)](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/nightly.yml)
 
-[![Source Code](https://img.shields.io/badge/source-GitHub-blue.svg?style |flat)](https://github.com/interoperable/dockerfile-interopbot)
-[![Latest version](https://img.shields.io/github/tag/interoperable/dockerfile-interopbot.svg?label |release&style |flat&maxAge |3600)](https://github.com/interoperable/dockerfile-interopbot/tags)
 [![GitHub issues](https://img.shields.io/github/issues/interoperable/dockerfile-interopbot.svg)](https://github.com/interoperable/dockerfile-interopbot/issues)
 ![GitHub License](https://img.shields.io/github/license/interoperable/dockerfile-interopbot)
 ![GitHub Issues](https://img.shields.io/github/issues/interoperable/dockerfile-interopbot)
