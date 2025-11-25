@@ -13,7 +13,7 @@ WORKDIR /app
 # Copy package.json and package-lock.json (if present)
 COPY package.json ./
 # Install Hubot and its dependencies, including the IRC adapter
-RUN npm install --omit dev
+RUN npm install -g npm@11.6.3 && npm install --omit dev
 # Copy the rest of the application files
 COPY . .
 # Set environment variables for Hubot IRC
