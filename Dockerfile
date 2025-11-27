@@ -2,12 +2,12 @@
 FROM node:current-alpine
 # https://www.docker.com/blog/docker-best-practices-using-tags-and-labels-to-manage-docker-image-sprawl/
 LABEL org.opencontainers.image.authors="Peter J. Pouliot <peter@pouliot.net>" \
-      org.opencontainers.image.ref.name="Hugbot IRC Bot" \
-      org.opencontainers.image.description="A hugbot container for use with the Interoperable" \
+      org.opencontainers.image.ref.name="interopbot" \
+      org.opencontainers.image.description="A hubot container for use with the Interoperable" \
       org.opencontainers.image.version="${DOCKER_TAG_DATE}" \
       org.opencontainers.image.licenses=Apache-2.0 \
-      org.opencontainers.image.url="https://github.com/interoperable/hubot-irc" \
-      org.opencontainers.image.source="https://github.com/interoperable/hubot-irc"
+      org.opencontainers.image.url="https://github.com/interoperable/dockerfile-interopbot" \
+      org.opencontainers.image.source="https://github.com/interoperable/dockerfile-interopbot"
 # Set the working directory inside the container
 WORKDIR /app
 # Copy package.json and package-lock.json (if present)
