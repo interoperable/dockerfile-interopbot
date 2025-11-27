@@ -1,6 +1,5 @@
 [
   "hubot-diagnostics",
-  "hubot-github-comments-notifier",
   "hubot-github-pages",
   "hubot-help",
   "hubot-rules",
