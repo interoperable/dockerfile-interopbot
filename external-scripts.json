@@ -1,6 +1,5 @@
 [
   "hubot-diagnostics",
-  "hubot-github-pages",
   "hubot-help",
   "hubot-rules",
   "hubot-github-deployments",
