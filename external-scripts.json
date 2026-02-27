@@ -2,13 +2,10 @@
   "hubot-diagnostics",
   "hubot-help",
   "hubot-rules",
-  "hubot-ethereum",
-  "hubot-ollama",
   "@types/hubot",
   "@hubot-friends/hubot-redis-brain",
   "@stephenyeargin/hubot-openweathermap",
   "@auto-it/docker",
-  "@pipedream/gitea",
   "@backstage-community/plugin-jenkins-common",
   "@backstage-community/plugin-jenkins-backend",
   "@backstage-community/plugin-jenkins"
