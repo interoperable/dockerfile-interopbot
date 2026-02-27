@@ -17,6 +17,7 @@ RUN npm install -g npm@11.8.0 && npm install --omit dev
 # Copy the rest of the application files
 COPY . .
 # Set environment variables for Hubot IRC
+#
 ENV HUBOT_IRC_SERVER="192.168.1.4" \
     HUBOT_IRC_ROOMS="#ops,#ci" \
     HUBOT_IRC_NICK="interopbot" \
