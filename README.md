@@ -12,12 +12,12 @@ A Hubot IRC Bot
 [![Nightly Docker Build and Publish](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/nightly.yml/badge.svg)](https://github.com/interoperable/dockerfile-interopbot/actions/workflows/nightly.yml)
 
 [![GitHub issues](https://img.shields.io/github/issues/interoperable/dockerfile-interopbot.svg)](https://github.com/interoperable/dockerfile-interopbot/issues)
-![GitHub License](https://img.shields.io/github/license/interoperable/dockerfile-interopbot)
-![GitHub Issues](https://img.shields.io/github/issues/interoperable/dockerfile-interopbot)
-![GitHub Repo stars](https://img.shields.io/github/stars/interoperable/dockerfile-interopbot)
-![GitHub forks](https://img.shields.io/github/forks/interoperable/dockerfile-interopbot)
-![Github last-commit](https://img.shields.io/github/last-commit/interoperable/dockerfile-interopbot)
-![Github forks](https://badgen.net/github/forks/interoperable/dockerfile-interopbot?icon |github&label |forks)
+[![GitHub License](https://img.shields.io/github/license/interoperable/dockerfile-interopbot)
+[![GitHub Issues](https://img.shields.io/github/issues/interoperable/dockerfile-interopbot)
+[![GitHub Repo stars](https://img.shields.io/github/stars/interoperable/dockerfile-interopbot)
+[![GitHub forks](https://img.shields.io/github/forks/interoperable/dockerfile-interopbot)
+[![Github last-commit](https://img.shields.io/github/last-commit/interoperable/dockerfile-interopbot)
+[![Github forks](https://badgen.net/github/forks/interoperable/dockerfile-interopbot?icon |github&label |forks)
 
 
 [![Docker Pulls](https://badgen.net/docker/pulls/interoperable/interopbot?icon |docker&label |pulls)](https://hub.docker.com/r/interoperable/interopbot)
